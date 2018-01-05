@@ -1,0 +1,19 @@
+$box-color: #C5C6C7;
+$border-color: #FF7F51;
+
+%center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+%relative {
+    position: relative;
+    margin: auto;
+}
+
+%borderhover {
+    &:hover {
+        border-color: $border-color;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
